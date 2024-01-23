@@ -1,8 +1,17 @@
-# React + Vite
+# Tasks manager app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a task manager app built with jotai, react(vite) and tailwind.
 
-Currently, two official plugins are available:
+Live link: https://task-manager-app-silk-two.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to run locally
+- clone the repo <br/>
+  ``` git clone https://github.com/Lftobs/Task-manager-app/```
+- Navigate to the Task-manager-app folder
+- install the dependencies using npm, yarn or pnpm <br/>
+``` npm i ```
+- After running the install you can run the app (using npm) <br/>
+  ``` npm run dev ``` <br/><br/>
+The task manager app is a two paged app built with react(via vite) since it was intended to be a SPA. The choice of tailwind css was due to the ease of the framework for faster development while jotai was used for state Management due to it atomic approach. All this combined together were used to carefully construct the app. 
+
+
