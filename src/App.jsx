@@ -1,10 +1,9 @@
 import { useEffect, useState } from 'react'
 import { TaskList } from './component/TaskList'
 import TaskAdd from './component/TaskAdd'
-import { Outlet } from 'react-router-dom'
 import { useAtom } from 'jotai'
 import { taskAtom } from '../Store'
-import { Chart } from 'chart.js'
+
 
 
 function App() {
